@@ -1,0 +1,25 @@
+[1] "--- T-Test Gender ---"
+
+	Welch Two Sample t-test
+
+data:  quality_of_sleep by gender
+t = 1.7383, df = 80.057, p-value = 0.086
+alternative hypothesis: true difference in means between group Female and group Male is not equal to 0
+95 percent confidence interval:
+ -0.04508648  0.66770966
+sample estimates:
+mean in group Female   mean in group Male 
+            7.418182             7.106870 
+
+[1] "--- ANOVA BMI ---"
+              Df Sum Sq Mean Sq F value   Pr(>F)    
+bmi_category   3  30.21  10.070   11.95 3.55e-07 ***
+Residuals    182 153.43   0.843                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "--- ANOVA Occupation ---"
+             Df Sum Sq Mean Sq F value Pr(>F)    
+occupation    8 113.68  14.209   35.95 <2e-16 ***
+Residuals   177  69.96   0.395                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
